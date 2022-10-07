@@ -1,0 +1,41 @@
+<!-- CSS SPECIFICITY DEMO -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Let’s Learn CSS</title>
+  </head>
+  <body>
+    <ul class="main">
+      <li>Item One</li>
+      <li>
+        Item Two
+        <ul>
+          <li>2.1</li>
+          <li>2.2</li>
+        </ul>
+      </li>
+      <li>
+        Item Three
+        <ul class="special">
+          <li>
+            3.1
+            <ul>
+              <li>3.1.1</li>
+              <li>3.1.2</li>
+            </ul>
+          </li>
+          <li>3.2</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
+
+<!-- BOX SIZING DEMO -->
+
+<div class="box">Content box sizing. I'm the default setting.</div>
+<div class="box alternate">
+  Border box sizing! People usually like to work with me more :)
+</div>
