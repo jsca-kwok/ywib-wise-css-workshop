@@ -1,4 +1,22 @@
+/* CSS CASCADE DEMO */
+h1 {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
 /* CSS SPECIFICITY DEMO */
+.main-heading {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+/* CSS INHERITANCE DEMO */
 
 .main {
   color: rebeccapurple;

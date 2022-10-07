@@ -1,4 +1,10 @@
+<!-- CSS CASCADE DEMO -->
+<h1>This is my heading.</h1>
+
 <!-- CSS SPECIFICITY DEMO -->
+<h1 class="main-heading">This is my heading.</h1>
+
+<!-- CSS INHERITANCE DEMO -->
 
 <!DOCTYPE html>
 <html>
